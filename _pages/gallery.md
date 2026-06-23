@@ -1,5 +1,5 @@
 # Watercolor Gallery
 
 ### Winter Day
+<img src="/assets/images/Winterday.PNG" width="400">
 
-![Winter Day](/assets/images/Winterday.PNG)
