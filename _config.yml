@@ -60,9 +60,10 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Guinea Pig Hobbies"
+  avatar : "/assets/images/profile.jpg"
+  bio    : "Sharing paintings inspired by nature, landscapes, and daily life."
+  
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
