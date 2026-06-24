@@ -48,11 +48,11 @@ body {
   margin: 0 auto !important;
 }
 
-/* Smaller artwork images */
 .feature__item img {
-  width: 100%;
-  max-height: 180px;
-  object-fit: cover;
+  width: 85%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Artwork titles */
