@@ -1,22 +1,63 @@
 ---
+
 layout: splash
 permalink: /
 
 header:
-  overlay_image: /assets/images/Winterday.PNG
-  overlay_filter: 0.08
-  caption: "Original Watercolor Paintings"
-  actions:
-    - label: "View Gallery"
-      url: "/gallery/"
+overlay_image: /assets/images/Winterday.PNG
+overlay_filter: 0.08
+caption: "Original Watercolor Paintings"
+actions:
+- label: "View Gallery"
+url: "/gallery/"
 
 excerpt: >
-  A collection of quiet moments.
+A collection of quiet moments.
 
 feature_row:
-  - image_path: /assets/images/Winterday.PNG
-    alt: "Winter Day"
-    title: "Winter Day"
+
+* image_path: /assets/images/Winterday.PNG
+  alt: "Winter Day"
+  title: "Winter Day"
+
+* image_path: /assets/images/Forest.jpg
+  alt: "Forest Path"
+  title: "Forest Path"
+
+* image_path: /assets/images/Snowpeak.jpg
+  alt: "Snow Peak"
+  title: "Snow Peak"
+
+feature_row2:
+
+* image_path: /assets/images/IMG_1097.JPG
+  alt: "Morning Light"
+  title: "Morning Light"
+
+* image_path: /assets/images/IMG_1260.JPG
+  alt: "Quiet Valley"
+  title: "Quiet Valley"
+
+* image_path: /assets/images/IMG_1262.JPG
+  alt: "Spring Meadow"
+  title: "Spring Meadow"
+
+feature_row3:
+
+* image_path: /assets/images/IMG_3138.JPG
+  alt: "Country Lane"
+  title: "Country Lane"
+
+* image_path: /assets/images/IMG_3145.JPG
+  alt: "Soft Horizon"
+  title: "Soft Horizon"
+
+* image_path: /assets/images/IMG_3146.JPG
+  alt: "Blue Distance"
+  title: "Blue Distance"
+
 ---
 
 {% include feature_row %}
+{% include feature_row id="feature_row2" %}
+{% include feature_row id="feature_row3" %}
