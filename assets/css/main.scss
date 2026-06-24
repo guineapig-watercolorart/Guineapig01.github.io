@@ -26,29 +26,29 @@ body {
   font-size: 0.95rem;
 }
 
-/* Two images per row */
+/* Two artwork cards per row */
 .feature__wrapper {
   display: grid !important;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 50px;
-  row-gap: 70px;
-  max-width: 1400px;
+  column-gap: 36px;
+  row-gap: 48px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
 /* Artwork cards */
 .feature__item {
   width: 100% !important;
-  max-width: 800px !important;
-  margin: 0 auto !important;
+  max-width: none !important;
+  margin: 0 !important;
 }
 
-/* Show full paintings without cropping */
+/* Artwork images */
 .feature__item img,
 .feature__item .archive__item-teaser img {
   width: 100% !important;
   height: auto !important;
-  max-height: none !important;
+  max-height: 420px !important;
   object-fit: contain !important;
   display: block !important;
   margin: 0 auto !important;
