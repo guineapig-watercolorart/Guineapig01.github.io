@@ -1,31 +1,36 @@
----
-# Only the main Sass file needs front matter
----
-
-@import "minimal-mistakes";
-
-html,
-body {
-  font-family: "EB Garamond", serif;
-  font-size: 12px;
+/* Two images per row */
+.feature__wrapper {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
-.page__hero h1 {
-  font-size: 2rem;
+/* Smaller artwork cards */
+.feature__item {
+  width: 100%;
+  margin: 0;
 }
 
-.page__hero .page__lead {
-  font-size: 0.95rem;
+/* Smaller images */
+.feature__item img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
 }
 
+/* Smaller titles */
 .feature__item .archive__item-title {
-  font-size: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 0.25rem;
 }
 
-.greedy-nav a {
-  font-size: 0.95rem;
-}
-
-.site-title {
-  font-size: 1.2rem;
+/* Mobile */
+@media (max-width: 768px) {
+  .feature__wrapper {
+    grid-template-columns: 1fr;
+    max-width: 350px;
+  }
 }
