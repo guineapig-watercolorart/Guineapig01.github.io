@@ -1,33 +1,31 @@
 ---
-
 # Only the main Sass file needs front matter
-
 ---
 
 @import "minimal-mistakes";
 
 html,
 body {
-font-family: "EB Garamond", serif;
-font-size: 14px;
+  font-family: "EB Garamond", serif;
+  font-size: 12px;
 }
 
 .page__hero h1 {
-font-size: 2rem;
+  font-size: 2rem;
 }
 
 .page__hero .page__lead {
-font-size: 0.95rem;
+  font-size: 0.95rem;
 }
 
 .feature__item .archive__item-title {
-font-size: 1rem;
+  font-size: 1rem;
 }
 
 .greedy-nav a {
-font-size: 0.95rem;
+  font-size: 0.95rem;
 }
 
 .site-title {
-font-size: 1.2rem;
+  font-size: 1.2rem;
 }
