@@ -35,8 +35,8 @@ body {
 .feature__wrapper {
   display: grid !important;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  column-gap: 55px;
-  row-gap: 65px;
+  column-gap: 400px;
+  row-gap: 100px;
   max-width: 760px;
   margin: 0 auto;
 }
@@ -44,28 +44,32 @@ body {
 /* Artwork cards */
 .feature__item {
   width: 100% !important;
-  max-width: 320px;
+  max-width: 300px !important;
   margin: 0 auto !important;
 }
 
-.feature__item img {
-  width: 85%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+/* Show full paintings without cropping */
+.feature__item img,
+.feature__item .archive__item-teaser img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  display: block !important;
+  margin: 0 auto !important;
 }
 
 /* Artwork titles */
 .feature__item .archive__item-title {
   font-size: 0.9rem;
   text-align: center;
-  margin-top: 0.4rem;
+  margin-top: 0.5rem;
 }
 
 /* Mobile: one image per row */
 @media (max-width: 768px) {
   .feature__wrapper {
     grid-template-columns: 1fr;
-    max-width: 340px;
+    max-width: 320px;
   }
 }
