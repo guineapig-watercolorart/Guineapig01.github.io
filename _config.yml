@@ -20,7 +20,7 @@ description: "Guinea Pig's Gallery"
 url: "https://guineapig01.github.io"
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: dirt
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
